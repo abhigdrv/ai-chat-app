@@ -1,5 +1,5 @@
 import { cn } from "../../lib/utils"
-import type { ReactNode } from "lucide-react"
+import type { ReactNode } from "react"
 
 interface DetailItem {
   key: string

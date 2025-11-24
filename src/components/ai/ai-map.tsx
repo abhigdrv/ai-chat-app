@@ -16,7 +16,7 @@ interface AIMapProps {
   className?: string
 }
 
-export function AIMap({ location, zoom = 15, className }: AIMapProps) {
+export function AIMap({ location, className }: AIMapProps) {
   // Static map placeholder - in production, you'd use Google Maps, Mapbox, etc.
   const { coordinates } = location
 
